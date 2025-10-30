@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Conversation History - DSA Algorithm Chatbot{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Conversation History</h2>
+    <p>Manage your past conversations here.</p>
+    
+    <div id="history-content">
+        <p>Loading history...</p>
+    </div>
+</div>
+
+<script>
+    // Redirect to main page since history is integrated in the sidebar
+    window.location.href = '/';
+</script>
+{% endblock %}
